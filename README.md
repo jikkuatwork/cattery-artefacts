@@ -2,27 +2,25 @@
 
 Binary assets for [cattery](https://github.com/jikkuatwork/cattery) — a pure Go text-to-speech tool.
 
-Large files are stored via **Git LFS**.
+Large files are stored via **Git LFS**. Cattery downloads directly from this repo on first run.
 
-## Structure
+## What's here
 
-```
-models/
-└── <model-name>/
-    ├── model_quantized.onnx    # ONNX model
-    ├── voices/
-    │   ├── af_heart.bin        # Voice style vectors
-    │   └── ...
-    └── SHA256SUMS
-```
+- **Model** — `models/kokoro-82m-v1.0/model_quantized.onnx` (92MB)
+- **Voices** — `models/kokoro-82m-v1.0/voices/*.bin` (~510KB each)
+- **Checksums** — `models/kokoro-82m-v1.0/SHA256SUMS`
+
+## What's NOT here
+
+**ONNX Runtime** (`libonnxruntime.so`) is downloaded directly from [Microsoft's official releases](https://github.com/microsoft/onnxruntime/releases) — not mirrored here since those URLs are permanent and auth-free.
 
 ## Models
 
-| Model | Params | Size | License | Source |
+| Model | Params | Size | License | Originally from |
 |---|---|---|---|---|
 | `kokoro-82m-v1.0` | 82M | 92MB (int8) | Apache-2.0 | [onnx-community/Kokoro-82M-v1.0-ONNX](https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX) |
 
-## Voices (kokoro-82m-v1.0)
+## Available voices (kokoro-82m-v1.0)
 
 Raw float32 `[510, 256]`, ~510KB each.
 
@@ -30,6 +28,12 @@ Raw float32 `[510, 256]`, ~510KB each.
 
 **British**: `bf_alice`, `bf_emma`, `bf_isabella`, `bf_lily`, `bm_daniel`, `bm_fable`, `bm_george`, `bm_lewis`
 
-## ORT Runtime
+## Adding a new model
 
-ONNX Runtime is downloaded directly from [Microsoft releases](https://github.com/microsoft/onnxruntime/releases) — not mirrored here.
+```
+models/
+└── new-model-name/
+    ├── model.onnx
+    ├── voices/
+    └── SHA256SUMS
+```
