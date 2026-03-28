@@ -310,6 +310,106 @@
           "label": "github"
         }
       ]
+    },
+    "models/qwen3.5-4b-v1.0/onnx/decoder_model_merged_q4.onnx": {
+      "size": 1206737,
+      "sha256": "731f0569c84ea71a756abfe090f3b472050ecda7ad35a78fb553dc530a60315b",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/models/qwen3.5-4b-v1.0/onnx/decoder_model_merged_q4.onnx",
+          "label": "github"
+        }
+      ]
+    },
+    "models/qwen3.5-4b-v1.0/onnx/decoder_model_merged_q4.onnx_data": {
+      "size": 2093368320,
+      "sha256": "c884a7c467f508568008bbaed3a90a77103f2dbc0643bd2625f8c483864c9726",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/models/qwen3.5-4b-v1.0/onnx/decoder_model_merged_q4.onnx_data",
+          "label": "github"
+        }
+      ]
+    },
+    "models/qwen3.5-4b-v1.0/onnx/decoder_model_merged_q4.onnx_data_1": {
+      "size": 607298560,
+      "sha256": "8239304d972b0ee1661b8be4b90ccf5937073a281f62fc1917d793b1fb873f3c",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/models/qwen3.5-4b-v1.0/onnx/decoder_model_merged_q4.onnx_data_1",
+          "label": "github"
+        }
+      ]
+    },
+    "models/qwen3.5-4b-v1.0/onnx/embed_tokens_q4.onnx": {
+      "size": 857,
+      "sha256": "b72feb6947db92d643f70abc6a4d3e5398a9535470a97685e3b1ab3b05047146",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/models/qwen3.5-4b-v1.0/onnx/embed_tokens_q4.onnx",
+          "label": "github"
+        }
+      ]
+    },
+    "models/qwen3.5-4b-v1.0/onnx/embed_tokens_q4.onnx_data": {
+      "size": 407244800,
+      "sha256": "aeb939a0c9a5d54c9f3ce77db340132780692c02e602b80a0cefb6ec8a9728be",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/models/qwen3.5-4b-v1.0/onnx/embed_tokens_q4.onnx_data",
+          "label": "github"
+        }
+      ]
+    },
+    "models/qwen3.5-4b-v1.0/tokenizer.json": {
+      "size": 19226111,
+      "sha256": "89da80cc6689bef4d90cc1028249436975ffb0814618f1d93c65310e05801a9b",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/models/qwen3.5-4b-v1.0/tokenizer.json",
+          "label": "github"
+        }
+      ]
+    },
+    "models/qwen3.5-4b-v1.0/config.json": {
+      "size": 3198,
+      "sha256": "c6f9834460177e3821e035900320fa24bd11ad1c9f14bfe2e78e4398e38c4937",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/models/qwen3.5-4b-v1.0/config.json",
+          "label": "github"
+        }
+      ]
+    },
+    "models/qwen3.5-4b-v1.0/generation_config.json": {
+      "size": 248,
+      "sha256": "dc0cbe66543f310896469b7b1448af792f403293a1080baaf04d586c57b23e48",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/models/qwen3.5-4b-v1.0/generation_config.json",
+          "label": "github"
+        }
+      ]
+    },
+    "models/qwen3.5-4b-v1.0/tokenizer_config.json": {
+      "size": 9162,
+      "sha256": "2de621ec071dd61438efdd6d0183bd3d612e98d05ac10d19ed75f1fef9299bc9",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/models/qwen3.5-4b-v1.0/tokenizer_config.json",
+          "label": "github"
+        }
+      ]
+    },
+    "models/qwen3.5-4b-v1.0/chat_template.jinja": {
+      "size": 7756,
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/models/qwen3.5-4b-v1.0/chat_template.jinja",
+          "label": "github"
+        }
+      ]
     }
   }
 }
