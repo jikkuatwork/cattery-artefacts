@@ -410,6 +410,46 @@
           "label": "github"
         }
       ]
+    },
+    "espeak-ng-v1.51/data.tar.gz": {
+      "size": 9579791,
+      "sha256": "151943774959b330d83446fa0e06de9ccfb5b95aa028a71b532827ca1b628f16",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/espeak-ng-v1.51/data.tar.gz",
+          "label": "github"
+        }
+      ]
+    },
+    "espeak-ng-v1.51/linux_amd64.tar.gz": {
+      "size": 698499,
+      "sha256": "33fb14ac1f366aab069024593ff1b290747f8cfd7f4c97d81d5c563359bfb0a6",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/espeak-ng-v1.51/linux_amd64.tar.gz",
+          "label": "github"
+        }
+      ]
+    },
+    "espeak-ng-v1.51/linux_arm64.tar.gz": {
+      "size": 590709,
+      "sha256": "03cd28b18694852d9f6f41dc32b69adea4b0a1ec2ce0eaface9a78d7277af06e",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/espeak-ng-v1.51/linux_arm64.tar.gz",
+          "label": "github"
+        }
+      ]
+    },
+    "espeak-ng-v1.51/darwin_arm64.tar.gz": {
+      "size": 219781,
+      "sha256": "489d3bf1d953771cdc13f4e5b631792bef307cca2ee4b50b34f4eab335c4b83c",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/espeak-ng-v1.51/darwin_arm64.tar.gz",
+          "label": "github"
+        }
+      ]
     }
   }
 }
