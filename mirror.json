@@ -450,6 +450,36 @@
           "label": "github"
         }
       ]
+    },
+    "ort/v1.24.4/onnxruntime-linux-x64-1.24.4.tgz": {
+      "size": 8155822,
+      "sha256": "3a211fbea252c1e66290658f1b735b772056149f28321e71c308942cdb54b747",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/ort/v1.24.4/onnxruntime-linux-x64-1.24.4.tgz",
+          "label": "github"
+        }
+      ]
+    },
+    "ort/v1.24.4/onnxruntime-linux-aarch64-1.24.4.tgz": {
+      "size": 7181958,
+      "sha256": "866109a9248d057671a039b9d725be4bd86888e3754140e6701ec621be9d4d7e",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/ort/v1.24.4/onnxruntime-linux-aarch64-1.24.4.tgz",
+          "label": "github"
+        }
+      ]
+    },
+    "ort/v1.24.4/onnxruntime-osx-arm64-1.24.4.tgz": {
+      "size": 30937282,
+      "sha256": "93787795f47e1eee369182e43ed51b9e5da0878ab0346aecf4258979b8bba989",
+      "mirrors": [
+        {
+          "url": "https://github.com/jikkuatwork/cattery-artefacts/raw/main/ort/v1.24.4/onnxruntime-osx-arm64-1.24.4.tgz",
+          "label": "github"
+        }
+      ]
     }
   }
 }
